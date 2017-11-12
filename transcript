@@ -1,0 +1,92 @@
+# Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {test_RISC_SPM.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module RISC_SPM
+# -- Compiling module Processing_Unit
+# -- Compiling module Register_Unit
+# -- Compiling module D_flop
+# -- Compiling module Address_Register
+# -- Compiling module Instruction_Register
+# -- Compiling module Program_Counter
+# -- Compiling module Multiplexer_5ch
+# -- Compiling module Multiplexer_3ch
+# -- Compiling module Alu_RISC
+# -- Compiling module Control_Unit
+# -- Compiling module Memory_Unit
+# 
+# Top level modules:
+# 	RISC_SPM
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Clock_Unit
+# 
+# Top level modules:
+# 	Clock_Unit
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module test_RISC_SPM
+# 
+# Top level modules:
+# 	test_RISC_SPM
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.test_RISC_SPM glbl 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.test_RISC_SPM(fast)
+# Loading work.Clock_Unit(fast)
+# Loading work.RISC_SPM(fast)
+# Loading work.Processing_Unit(fast)
+# Loading work.Register_Unit(fast)
+# Loading work.D_flop(fast)
+# Loading work.Address_Register(fast)
+# Loading work.Instruction_Register(fast)
+# Loading work.Program_Counter(fast)
+# Loading work.Multiplexer_5ch(fast)
+# Loading work.Multiplexer_3ch(fast)
+# Loading work.Alu_RISC(fast)
+# Loading work.Control_Unit(fast)
+# Loading work.Memory_Unit(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/test_RISC_SPM/M2/*
+restart
+# Loading work.test_RISC_SPM(fast)
+# Loading work.Clock_Unit(fast)
+# Loading work.RISC_SPM(fast)
+# Loading work.Processing_Unit(fast)
+# Loading work.Register_Unit(fast)
+# Loading work.D_flop(fast)
+# Loading work.Address_Register(fast)
+# Loading work.Instruction_Register(fast)
+# Loading work.Program_Counter(fast)
+# Loading work.Multiplexer_5ch(fast)
+# Loading work.Multiplexer_3ch(fast)
+# Loading work.Alu_RISC(fast)
+# Loading work.Control_Unit(fast)
+# Loading work.Memory_Unit(fast)
+# Loading work.glbl(fast)
+run
+run
+run
+run
+run
+run
+# ** Note: $finish    : test_RISC_SPM.v(56)
+#    Time: 2800 ns  Iteration: 0  Instance: /test_RISC_SPM
+# 1
+# Break in Module test_RISC_SPM at test_RISC_SPM.v line 56

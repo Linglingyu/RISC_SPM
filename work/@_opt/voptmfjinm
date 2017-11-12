@@ -1,0 +1,297 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ISE_project\RISC_SPM
+T_opt
+V84MaXmS33?Qf<G<;lZUKi0
+04 13 4 work test_RISC_SPM fast 0
+04 4 4 work glbl fast 0
+=1-000af72c7c11-5a07e362-3e-347c
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+n@_opt
+OL;O;10.1c;51
+vAddress_Register
+IAGPA^9]F><NUg9T:633nQ1
+V6Y<5bSPQ5[n<;6l>BMi0k1
+Z1 dD:\ISE_project\RISC_SPM
+Z2 w1510455024
+Z3 8RISC_SPM.v
+Z4 FRISC_SPM.v
+L0 99
+Z5 OL;L;10.1c;51
+r1
+31
+Z6 !s108 1510466398.603000
+Z7 !s107 RISC_SPM.v|
+Z8 !s90 -reportprogress|300|RISC_SPM.v|
+Z9 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@address_@register
+!s100 Wk?4Y`>L^Z<mKW<L<?j4c3
+!i10b 1
+!s85 0
+vAlu_RISC
+I5SIiY5=0WeYek2]QM8iUB2
+V?KLK6;2RXKHIdDg:OElIH1
+R1
+R2
+R3
+R4
+L0 163
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@alu_@r@i@s@c
+!s100 Ng=0T7k>c=S:jF@6ANFcE3
+!i10b 1
+!s85 0
+vClock_Unit
+I_ZDgM6A5JZ`Z:0h5ffDXb0
+V8X_HjSR4K<W=bfo4B8kYj2
+R1
+w1510466367
+8Clock_Unit.v
+FClock_Unit.v
+L0 3
+R5
+r1
+31
+R9
+n@clock_@unit
+!s90 -reportprogress|300|Clock_Unit.v|
+!s100 09_DYVX=5NK0ED_c_P<_U3
+!s108 1510466399.685000
+!s107 Clock_Unit.v|
+!i10b 1
+!s85 0
+vControl_Unit
+IF6U@ekO1EE>9<Yno:^;3c2
+VmAZ4<>=LXN]FDLHEHi=UJ3
+R1
+R2
+R3
+R4
+L0 196
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@control_@unit
+!s100 lVTzb`Fg@=0EDn?nefgAV0
+!i10b 1
+!s85 0
+vD_flop
+InkF`[iAUlKFO?ho11[KAC3
+V=BJEg<9IggeAkP5No=9Z;1
+R1
+R2
+R3
+R4
+L0 88
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@d_flop
+!s100 0k5F]a[HPImP^1[9^oQEA2
+!i10b 1
+!s85 0
+vglbl
+I4b9nnmKVNfb:jWaaBE8Cg3
+VM[9mS]S:KA1i4VeCMX35[3
+R1
+Z10 w1381681120
+8D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+FD:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R5
+r1
+31
+R9
+!s100 TFB84>>W1Fn6fP`iF=8CU3
+!s90 -reportprogress|300|D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+!i10b 1
+!s85 0
+!s108 1510466400.023000
+!s107 D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v|
+vInstruction_Register
+I=z0Uem_RX^JYPW5b_^zOB0
+VYMzPbM`0hf1SNRnJZUzeY1
+R1
+R2
+R3
+R4
+Z11 L0 109
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@instruction_@register
+!s100 e<<4Ph][E>2?AzPG0`j1]1
+!i10b 1
+!s85 0
+vMemory_Unit
+I3`;8=XVM06?9Q8ZoA30M90
+VX7[MDHQCN1i<0JjTn8N=32
+R1
+R2
+R3
+R4
+L0 414
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@memory_@unit
+!s100 odz5kChXQm]@LI[^]?j]z0
+!i10b 1
+!s85 0
+vMultiplexer_3ch
+IW08_ib1NKGC^6nMcZAK4J2
+V<32`cOf?^jFz?Eg6[G4ib1
+R1
+R2
+R3
+R4
+L0 144
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@multiplexer_3ch
+!s100 Qni`GCFE9PEAG`bgik<<;2
+!i10b 1
+!s85 0
+vMultiplexer_5ch
+ITfn2EBemeIW`6P[[F:dn>3
+V;kRieRnA3M`CJ5D0mfb[X0
+R1
+R2
+R3
+R4
+L0 131
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@multiplexer_5ch
+!s100 Z^TlYX9h0?P3Dem`R`I`n1
+!i10b 1
+!s85 0
+vProcessing_Unit
+I[M3<Q2[1_c@fgJ8]m<i>P3
+VLz^FiUMKB0bD3200MKBET1
+R1
+R2
+R3
+R4
+L0 36
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@processing_@unit
+!s100 eMCO@RmXI?<MlFK7=V:YV2
+!i10b 1
+!s85 0
+vProgram_Counter
+I0V:4;F@Rg;D2`G3MnmW=J3
+VjLbU[ZTNe1E4:aWb6zEdM3
+R1
+R2
+R3
+R4
+L0 120
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@program_@counter
+!s100 P[FY6f0BjL9?8HDUXi:>D0
+!i10b 1
+!s85 0
+vRegister_Unit
+I6R6EF3HE^@K5;JVSzjMX63
+V[Pj?RG]F]fRdbc^k>]OdM2
+R1
+R2
+R3
+R4
+L0 76
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@register_@unit
+!s100 oIF:P3Rz1EZn@d_E3XNd63
+!i10b 1
+!s85 0
+vRISC_SPM
+I^LnPib;YH=?oU4J3@o`Ye3
+VSJGCV?Hl7nC=1]FPzL?CG1
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@r@i@s@c_@s@p@m
+!s100 3G_?L@g9Nm0SMZY09=e7;0
+!i10b 1
+!s85 0
+vtest_RISC_SPM
+IbhRH<nB163GFLo>b8[FT:1
+VjNY[D0<jI::L0cSooTh541
+R1
+w1510466313
+8test_RISC_SPM.v
+Ftest_RISC_SPM.v
+L0 3
+R5
+r1
+31
+R9
+ntest_@r@i@s@c_@s@p@m
+!s100 i=XIiZ74CW@io5VhU^CR20
+!s90 -reportprogress|300|test_RISC_SPM.v|
+!s108 1510466399.854000
+!s107 test_RISC_SPM.v|
+!i10b 1
+!s85 0
